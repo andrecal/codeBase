@@ -2,7 +2,6 @@
  *  caleb andrews
  *  partical model accelerator
  */
-
 //sensor pins
 const int sen1 = 3;
 const int sen2 = 4;
@@ -24,10 +23,7 @@ void setup() {
   pinMode(sen1, INPUT);
   pinMode(sen2, INPUT);
   pinMode(sen3, INPUT);
-
-  Serial.begin(9600);
-  
-
+  //Serial.begin(9600);
 }
 
 void loop() {
@@ -51,5 +47,4 @@ void loop() {
     delay(dT);
     digitalWrite(tran3, LOW);
   }*/
- 
 }
